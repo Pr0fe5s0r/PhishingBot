@@ -249,13 +249,13 @@ arch=$(uname -a | grep -o 'arm')
 
 if [[ $arch == *'arm'* ]]; then
 printf "\e[1;93m[!] There is no ngrok. Downloading Ngrok!.....\n" | lolcat -p -a -d 7
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
+sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
 
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 printf "\e[1;93m[!] Finall Step!.....\n" | lolcat -p -a -d 7
-unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
-chmod +x ngrok
-rm -rf ngrok-stable-linux-arm.zip
+sudo unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
+sudo chmod +x ngrok
+sudo rm -rf ngrok-stable-linux-arm.zip
 else
 printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n" | lolcat -p -a -d 7
 exit 1
@@ -265,12 +265,12 @@ fi
 
 else
 printf "\e[1;93m[!] There is no ngrok. Downloading Ngrok!.....\n" | lolcat -p -a -d 7
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1 
+sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1 
 if [[ -e ngrok-stable-linux-386.zip ]]; then
 printf "\e[1;93m[!] Finall Step!.....\n" | lolcat -p -a -d 7
-unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
-chmod +x ngrok
-rm -rf ngrok-stable-linux-386.zip
+sudo unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
+sudo chmod +x ngrok
+sudo rm -rf ngrok-stable-linux-386.zip
 else
 printf "\e[1;93m[!] Download error... \e[0m\n" | lolcat -p -a -d 7
 exit 1
