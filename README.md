@@ -6,6 +6,7 @@ Phishing Bot is a simple Phishing tool. It has ngrok tunnel.
 2.  `cd PhishingBot`
 3.  `sudo chmod 777 *`
 4.  `./b0t.sh`
+
 MAKE SURE YOU NOT INSTALLED IN ROOT!!!
 
 # Legal disclaimer:
