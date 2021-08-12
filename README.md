@@ -7,7 +7,7 @@ Phishing Bot is a simple Phishing tool. It has ngrok tunnel.
 3.  `sudo chmod 777 *`
 4.  `./b0t.sh`
 
-MAKE SURE YOU NOT INSTALLED IN ROOT!!!
+MAKE SURE IF YOU ADD SUDO IN FRONT OF GIT THEN YOU WANT TO MANUALLY GIVE PERMISSION TO ALL FILES AND FOLDERS!!!
 
 # Legal disclaimer:
 Usage of PhishBot for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
