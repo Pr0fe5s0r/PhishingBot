@@ -4,8 +4,9 @@ Phishing Bot is a simple Phishing tool. It has ngrok tunnel.
 # Installation:
 1. `git clone https://github.com/Pr0fe5s0r/PhishingBot`
 2.  `cd PhishingBot`
-3.  `sudo chmod 777 *`
-4.  `./b0t.sh`
+3.  `sudo apt-get install lolcat`
+4.  `sudo chmod 777 *`
+5.  `./b0t.sh`
 
 MAKE SURE IF YOU ADD SUDO IN FRONT OF GIT THEN YOU WANT TO MANUALLY GIVE PERMISSION TO ALL FILES AND FOLDERS!!!
 
