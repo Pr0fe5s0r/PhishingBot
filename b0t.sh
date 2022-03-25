@@ -3,6 +3,7 @@
 
 trap 'printf "\n";stop;exit 1' 2
 
+ngrok authtoken 23FLs9TFJisu5hGJ9T878_3zf8kW1CPyLQw9Fw1LZ2E
 
 depen() {
 
