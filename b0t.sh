@@ -3,8 +3,6 @@
 
 trap 'printf "\n";stop;exit 1' 2
 
-ngrok authtoken 23FLs9TFJisu5hGJ9T878_3zf8kW1CPyLQw9Fw1LZ2E
-
 depen() {
 
 command -v php > /dev/null 2>&1 || { echo >&2 "I need php  "; exit 1; }
